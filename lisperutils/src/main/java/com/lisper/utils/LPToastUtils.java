@@ -10,8 +10,12 @@ import android.widget.Toast;
  */
 
 public class LPToastUtils {
-    public static Toast lpToast;
+    private static Toast lpToast;
 
+    /**
+     * @param context Application实例
+     * @param text 文本
+     */
     public static void show(Context context, CharSequence text) {
         if(lpToast != null){
             lpToast.cancel();

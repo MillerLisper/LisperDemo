@@ -50,7 +50,7 @@ public class LPActivityUtils {
     }
 
     /**
-     * fragemnt中使用
+     * fragment中使用
      * @param className
      * @param params
      * @param requestCode
